@@ -4,14 +4,6 @@
 #include <string>
 using namespace std;
 
-TEST(TEST, unique)
+TEST(TEST, basic_server_client)
 {
-    string s = "aabccdedffddcb";
-
-    sort(s.begin(), s.end());
-    cout << s << endl;
-
-    s.erase(unique(s.begin(), s.end()), s.end());
-
-    cout <<s << endl;
 }

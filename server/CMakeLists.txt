@@ -1,2 +1,5 @@
 FILE(GLOB SRC *.cpp)
 ADD_LIBRARY(server ${SRC})
+
+ADD_EXECUTABLE(srv main.cpp)
+TARGET_LINK_LIBRARIES(srv server)
